@@ -1,0 +1,81 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 400px;
+  margin: auto;
+  font-size: 16px;
+  font-family: "Helvetica"  , "Arial" , sans-serif;
+}
+
+.form{
+  padding: 10px;
+  font-size: 14px;
+  font-family: "Helvetica" , "Arial" , sans-serif;
+  display: flex;
+
+}
+
+.form textarea {
+  resize: none;
+  min-height: 120px;
+}
+
+.form label {
+  margin: 7px;
+  font-size: 14px;
+  font-family: "Helvetica" , "Arial" , sans-serif;
+  float: left;
+
+}
+
+.form input[type="checkbox"] {
+  margin: 5px;
+}
+
+.form button{
+  border: none;
+  padding: 10px 40px;
+  margin-left: 120px;
+}
+
+.form input[type='text'] , .form input[type='email'] {
+  padding: 3px;
+
+  border: 1px solid #5D6063;
+  background-color: #FFFFFF;
+  margin: 3px;
+}
+
+.radio-form{
+  margin: 5px;
+
+}
+
+.radio-form label {
+  margin: 3px;
+}
+
+.form select{
+  padding: 4px;
+  border: 1px solid grey;
+}
+
+.radio-form {
+  border: none;
+}
+
+.radio-form legend{
+  margin-bottom: 15px;
+  display: block;
+
+  width: 120px;
+  padding-right: 20px;
+}
+
+.radio-form input{
+  margin-top: 2px;
+}

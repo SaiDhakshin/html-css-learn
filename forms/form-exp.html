@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exp Styles</title>
+    <link rel="stylesheet" href="expstyles.css">
+  </head>
+  <body>
+    <h1>Form Submission</h1>
+    <p>Submit this form , we would love to hear from you.</p>
+    <form class="form" action="index.html" method="post">
+      <label for="full-name">Name</label>
+      <input type="text" name="full-name"\>
+    </form>
+
+    <div class="form">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" \>
+    </div>
+
+    <fieldset class="radio-form">
+      <legend>Gender</legend>
+      <input type="radio" name="male" value="male" id="male" \ >
+      <label for="male">Male</label>
+      <input type="radio" name="female" value="female" id="female" checked \>
+      <label for="female">Female</label>
+    </fieldset>
+    <div class="form">
+      <label for="Age">Age</label>
+      <select  name="Age">
+        <option value="Child">0-7</option>
+        <option value="Teen">13-18</option>
+      </select>
+    </div>
+
+    <div class="form">
+      <label for="FeedBack">FeedBack</label>
+      <textarea name="FeedBack"></textarea>
+    </div>
+    <div class="form">
+      <label for="Agree">
+        <input type="checkbox" name="Agree" value="agree"><span>You agree to our terms and conditions</span>
+      </label>
+    </div>
+
+    <div class="form">
+      <button type="button" name="button">Submit</button>
+    </div>
+  </body>
+</html>
